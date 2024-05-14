@@ -16,35 +16,35 @@ defmodule SportMatchMakerWeb.MatchLive.ModalComponent do
             <p class="text-xs font-medium dark:text-zinc-700">
                <%= gettext("Email") %>
             </p>
-            <figcaption class="text-lg font-medium text-black">
+            <figcaption class="text-md text-wrap font-medium text-black">
               <%= @user.email %>
             </figcaption>
 
             <p class="text-xs mt-2 font-medium dark:text-zinc-700">
               <%= gettext("Skill level") %>
             </p>
-            <figcaption class="text-lg font-medium text-black">
+            <figcaption class="text-md font-medium text-black">
               <%= @user.profile.skill_level %>
             </figcaption>
 
             <p class="text-xs mt-2 font-medium dark:text-zinc-700">
               <%= gettext("Game style/format") %>
             </p>
-            <figcaption class="text-lg font-medium text-black">
+            <figcaption class="text-md font-medium text-black">
               <%= @user.profile.game_style_preference %> / <%= @user.profile.game_format_preference %>
             </figcaption>
 
             <p class="text-xs mt-2 font-medium dark:text-zinc-700">
               <%= gettext("Borough") %>
             </p>
-            <figcaption class="text-lg font-medium text-black">
+            <figcaption class="text-md font-medium text-black">
               <%= @user.profile.borough %>
             </figcaption>
 
             <p class="text-xs mt-2 font-medium dark:text-zinc-700">
               <%= gettext("Game time") %>
             </p>
-            <figcaption class="text-lg font-medium text-black">
+            <figcaption class="text-md font-medium text-black">
               <%= Calendar.strftime(@user.profile.game_time_preference, "%Y-%m-%d %H:%M:%S") %>
             </figcaption>
           </div>

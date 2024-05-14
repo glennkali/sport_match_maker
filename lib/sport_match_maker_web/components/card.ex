@@ -26,10 +26,10 @@ defmodule SportMatchMakerWeb.Card do
       {@rest}
     >
       <div class="flex items-center justify-between gap-6">
-        <div class="flex flex-row items-center gap-6">
+        <div class="flex flex-row items-center gap-4">
           <img :if={assigns[:image]} class="rounded-full" width="64" height="64" alt="" src={@image} />
-          <div class="flex flex-col">
-            <figcaption class="text-lg font-medium text-black">
+          <div class="flex flex-col max-w-32">
+            <figcaption class="text-lg font-medium text-black overflow-hidden">
               <%= @title %>
             </figcaption>
             <p class="text-xs font-medium dark:text-zinc-700"><%= @subheading %></p>
