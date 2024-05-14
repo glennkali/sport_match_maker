@@ -7,7 +7,7 @@ defmodule SportMatchMakerWeb.HomeLive do
 
   def render(assigns) do
     ~H"""
-    <div id="home" class="space-y-5">
+    <div id="home" class="w-full sm:w-auto">
       <.header>
         <span :if={@show_new}>
           <%= gettext("Active Members") %>

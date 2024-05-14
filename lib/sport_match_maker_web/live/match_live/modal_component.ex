@@ -7,9 +7,9 @@ defmodule SportMatchMakerWeb.MatchLive.ModalComponent do
   @impl true
   def render(assigns) do
     ~H"""
-    <div>
+    <div class="mx-auto max-w-lg">
       <.header><%= @title %></.header>
-      <figure class= "relative w-full overflow-hidden rounded-xl p-4 transition-all bg-neutral-50-50 border-gray-200 text-zinc-500 dark:border-gray-50 dark:bg-gray-50">
+      <figure class= "relative w-full rounded-xl p-4 transition-all bg-neutral-50-50 border-gray-200 text-zinc-500 dark:border-gray-50 dark:bg-gray-50">
         <div class="flex justify-center gap-6">
           <img class="rounded-full" width="256" height="256" alt="" src={"https://picsum.photos/id/#{@user.id}/256"} />
           <div class="flex flex-col">
