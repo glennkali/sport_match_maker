@@ -11,12 +11,12 @@ defmodule SportMatchMakerWeb.MatchLive.ModalComponent do
       <.header><%= @title %></.header>
       <figure class= "relative w-full rounded-xl p-4 transition-all bg-neutral-50-50 border-gray-200 text-zinc-500 dark:border-gray-50 dark:bg-gray-50">
         <div class="flex justify-center gap-6">
-          <img class="rounded-full" width="256" height="256" alt="" src={"https://picsum.photos/id/#{@user.id}/256"} />
+          <img class="rounded-full" src={"https://picsum.photos/id/#{@user.id}/256"} />
           <div class="flex flex-col">
             <p class="text-xs font-medium dark:text-zinc-700">
                <%= gettext("Email") %>
             </p>
-            <figcaption class="text-md text-wrap font-medium text-black">
+            <figcaption class="text-md font-medium text-black break-all">
               <%= @user.email %>
             </figcaption>
 
