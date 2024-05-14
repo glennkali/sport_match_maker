@@ -22,6 +22,6 @@ defmodule SportMatchMaker.Accounts.Profile do
   def changeset(profile, attrs) do
     profile
     |> cast(attrs, [:age_group, :gender, :skill_level, :borough, :game_style_preference, :game_format_preference, :game_time_preference, :game_recurrence])
-    |> validate_required([:age_group, :gender, :borough, :skill_level, :game_time_preference])
+    |> validate_required([:age_group, :gender, :borough, :skill_level, :game_time_preference, :game_format_preference, :game_style_preference])
   end
 end

@@ -79,7 +79,7 @@ defmodule SportMatchMakerWeb.OnboardingLive do
                   <%= gettext("Preferences") %>
                 </span>
                 <span class="relative flex-auto items-start space-y-4 sm:flex-col">
-                  <.input field={@form[:play_style_preference]} type="select" label={gettext("Game style")} prompt={gettext("Select style")} options={play_styles()} required />
+                  <.input field={@form[:game_style_preference]} type="select" label={gettext("Game style")} prompt={gettext("Select style")} options={play_styles()} required />
                   <.input field={@form[:game_format_preference]} type="select" label={gettext("Game format")} prompt={gettext("Select format")} options={game_formats()} required />
                   <.input field={@form[:game_time_preference]} type="datetime-local" label={gettext("Game time")} required/>
                   <.input field={@form[:game_time_reccurrence]} type="select" label={gettext("Game recurrence")} options={game_reccurrences()} required />
