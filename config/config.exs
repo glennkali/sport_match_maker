@@ -41,6 +41,8 @@ config :esbuild,
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
 
+config :sport_match_maker, SportMatchMakerWeb.Gettext, default_locale: "fr"
+
 # Configure tailwind (the version is required)
 config :tailwind,
   version: "3.4.0",

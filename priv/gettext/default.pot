@@ -1,0 +1,376 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new messages manually only if they're dynamic
+## messages that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+#
+msgid ""
+msgstr ""
+
+#: lib/sport_match_maker_web/controllers/user_session_controller.ex:8
+#, elixir-autogen, elixir-format
+msgid "Account created successfully!"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:483
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:13
+#, elixir-autogen, elixir-format
+msgid "Active Members"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:68
+#, elixir-autogen, elixir-format
+msgid "Age"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:15
+#: lib/sport_match_maker_web/live/user_registration_live.ex:13
+#, elixir-autogen, elixir-format
+msgid "Already registered?"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:136
+#, elixir-autogen, elixir-format
+msgid "At the moment we help you find games for Pickeball and Tennis. More sports to come!"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:160
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:38
+#: lib/sport_match_maker_web/live/onboarding_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Borough"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:125
+#, elixir-autogen, elixir-format
+msgid "Chat on Whatsapp"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:33
+#, elixir-autogen, elixir-format
+msgid "Cities"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:54
+#, elixir-autogen, elixir-format
+msgid "Confirm match"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:49
+#, elixir-autogen, elixir-format
+msgid "Connect"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:118
+#, elixir-autogen, elixir-format
+msgid "Connections"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:42
+#: lib/sport_match_maker_web/live/user_registration_live.ex:39
+#, elixir-autogen, elixir-format
+msgid "Create an account"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:130
+#, elixir-autogen, elixir-format
+msgid "Create an account and find people to play with. It's as simple as that."
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:133
+#, elixir-autogen, elixir-format
+msgid "Currently we are live in the city of Montreal. More cities to come!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:10
+#, elixir-autogen, elixir-format
+msgid "Don't have an account?"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:17
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:37
+#: lib/sport_match_maker_web/live/user_login_live.ex:19
+#: lib/sport_match_maker_web/live/user_registration_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:151
+#, elixir-autogen, elixir-format
+msgid "Error!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:93
+#, elixir-autogen, elixir-format
+msgid "Find games"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:110
+#, elixir-autogen, elixir-format
+msgid "Follow on Twitter"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:25
+#, elixir-autogen, elixir-format
+msgid "Forgot your password?"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Game format"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:85
+#, elixir-autogen, elixir-format
+msgid "Game recurrence"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Game style"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:31
+#, elixir-autogen, elixir-format
+msgid "Game style/format"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:45
+#: lib/sport_match_maker_web/live/onboarding_live.ex:84
+#, elixir-autogen, elixir-format
+msgid "Game time"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Gender"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:172
+#, elixir-autogen, elixir-format
+msgid "Hang in there while we get back on track"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:110
+#, elixir-autogen, elixir-format
+msgid "Home"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:25
+#, elixir-autogen, elixir-format
+msgid "How it works"
+msgstr ""
+
+#: lib/sport_match_maker_web/controllers/user_session_controller.ex:31
+#, elixir-autogen, elixir-format
+msgid "Invalid email or password"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:23
+#, elixir-autogen, elixir-format
+msgid "Keep me logged in"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:45
+#: lib/sport_match_maker_web/live/home_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Lives in"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/layouts/app.html.heex:42
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:17
+#: lib/sport_match_maker_web/live/user_login_live.ex:30
+#: lib/sport_match_maker_web/live/user_registration_live.ex:15
+#, elixir-autogen, elixir-format
+msgid "Log in"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "Log in to account"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/layouts/app.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "Log out"
+msgstr ""
+
+#: lib/sport_match_maker_web/controllers/user_session_controller.ex:39
+#, elixir-autogen, elixir-format
+msgid "Logged out successfully."
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:125
+#, elixir-autogen, elixir-format
+msgid "New Match"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:54
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:34
+#: lib/sport_match_maker_web/live/user_registration_live.ex:31
+#, elixir-autogen, elixir-format
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:38
+#: lib/sport_match_maker_web/live/user_login_live.ex:20
+#: lib/sport_match_maker_web/live/user_registration_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr ""
+
+#: lib/sport_match_maker_web/controllers/user_session_controller.ex:14
+#, elixir-autogen, elixir-format
+msgid "Password updated successfully!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:65
+#, elixir-autogen, elixir-format
+msgid "Personal details"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:79
+#, elixir-autogen, elixir-format
+msgid "Preferences"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:13
+#: lib/sport_match_maker_web/live/user_registration_live.ex:11
+#, elixir-autogen, elixir-format
+msgid "Register for an account"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:68
+#, elixir-autogen, elixir-format
+msgid "Select age"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:71
+#, elixir-autogen, elixir-format
+msgid "Select borough"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:83
+#, elixir-autogen, elixir-format
+msgid "Select format"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "Select gender"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Select level"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:82
+#, elixir-autogen, elixir-format
+msgid "Select style"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/layouts/app.html.heex:22
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:12
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:24
+#: lib/sport_match_maker_web/live/onboarding_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Skill level"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "Slogan"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:167
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live.ex:41
+#, elixir-autogen, elixir-format
+msgid "Sports"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:150
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/match_live/modal_component.ex:79
+#, elixir-autogen, elixir-format
+msgid "Successfully matched"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:155
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr ""
+
+#: lib/sport_match_maker_web/controllers/user_session_controller.ex:18
+#, elixir-autogen, elixir-format
+msgid "Welcome back!"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:16
+#, elixir-autogen, elixir-format
+msgid "Your Connections"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "and is available"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "and is looking for"
+msgstr ""
+
+#: lib/sport_match_maker_web/components/core_components.ex:76
+#: lib/sport_match_maker_web/components/core_components.ex:130
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/user_login_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "for an account now."
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "games in"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/home_live.ex:69
+#, elixir-autogen, elixir-format
+msgid "modes at"
+msgstr ""
+
+#: lib/sport_match_maker_web/live/onboarding_live/modal_component.ex:19
+#: lib/sport_match_maker_web/live/user_registration_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "to your account now."
+msgstr ""
