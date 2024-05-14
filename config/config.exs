@@ -29,7 +29,7 @@ config :sport_match_maker, SportMatchMakerWeb.Endpoint,
 #
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
-config :sport_match_maker, SportMatchMaker.Mailer, adapter: Swoosh.Adapters.Local
+config :sport_match_maker, SportMatchMaker.Mailer, adapter: Swoosh.Adapters.Test
 
 # Configure esbuild (the version is required)
 config :esbuild,
